@@ -1,0 +1,52 @@
+*{
+    padding: none;
+    margin: none;
+    border: solid 1px black;
+    font-family: monospace;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: darkslategray;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#snakeGameContainer {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    align-content: center;
+    color: orangered;
+    text-shadow: 0px 0px 20px orangered;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border: solid 10px magenta;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#startBtn{
+    text-shadow: none;
+    color: turquoise;
+
+    animation: glowEffect linear 5s infinite;
+}
+
+@keyframes glowEffect{
+    0%{
+        text-shadow: 0px 0px 20px orangered;
+    }
+    50%{
+        text-shadow: 0px 0px 5px black;
+    }
+    100%{
+        text-shadow: 0px 0px 20px orangered;
+    }
+
+}
