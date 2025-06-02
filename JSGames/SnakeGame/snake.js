@@ -3,5 +3,5 @@
 let snakeContainer = document.querySelector('#snakeGameContainer');
 
 function snake(){
-    
+    let snake = x === 3;
 }
